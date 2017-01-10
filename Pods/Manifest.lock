@@ -1,0 +1,18 @@
+PODS:
+  - RandomColorSwift (1.0.0)
+  - SnapKit (3.0.2)
+  - UIView+draggable (1.1.0)
+
+DEPENDENCIES:
+  - RandomColorSwift
+  - SnapKit (~> 3.0.2)
+  - UIView+draggable
+
+SPEC CHECKSUMS:
+  RandomColorSwift: 9f85058b721665d52d239ca166a913e083506444
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  UIView+draggable: ddfbeb6bdfdeba63d9ccf32dc9be2b66cc589717
+
+PODFILE CHECKSUM: aa87435b27671447da1aec4cb41dadf7aea5c599
+
+COCOAPODS: 1.1.1

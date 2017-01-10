@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2173B33F1DEDF84200B2A7AD /* CircuitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173B33E1DEDF84200B2A7AD /* CircuitFactory.swift */; };
+		217A7F661DCF887400F88F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A7F651DCF887400F88F7F /* AppDelegate.swift */; };
+		217A7F681DCF887400F88F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217A7F671DCF887400F88F7F /* ViewController.swift */; };
+		217A7F6B1DCF887400F88F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217A7F691DCF887400F88F7F /* Main.storyboard */; };
+		217A7F6E1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 217A7F6C1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodeld */; };
+		217A7F701DCF887400F88F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217A7F6F1DCF887400F88F7F /* Assets.xcassets */; };
+		217A7F731DCF887400F88F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217A7F711DCF887400F88F7F /* LaunchScreen.storyboard */; };
+		218A34221DE6E38A0021752D /* CircuitBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34171DE6E38A0021752D /* CircuitBackGroundView.swift */; };
+		218A34231DE6E38A0021752D /* CircuitBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34181DE6E38A0021752D /* CircuitBaseView.swift */; };
+		218A34241DE6E38A0021752D /* CircuitConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A341A1DE6E38A0021752D /* CircuitConditionView.swift */; };
+		218A34251DE6E38A0021752D /* CircuitConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218A341B1DE6E38A0021752D /* CircuitConditionView.xib */; };
+		218A34261DE6E38A0021752D /* CircuitConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A341D1DE6E38A0021752D /* CircuitConfigView.swift */; };
+		218A34271DE6E38A0021752D /* CircuitConfigView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 218A341E1DE6E38A0021752D /* CircuitConfigView.xib */; };
+		218A34281DE6E38A0021752D /* CircuitControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A341F1DE6E38A0021752D /* CircuitControlsView.swift */; };
+		218A342A1DE6E38A0021752D /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34211DE6E38A0021752D /* LineView.swift */; };
+		218A347E1DE721FB0021752D /* CircuitView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218A347D1DE721FB0021752D /* CircuitView.xcassets */; };
+		218A34811DE72C230021752D /* CircuitElectricSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34801DE72C230021752D /* CircuitElectricSource.swift */; };
+		218A34831DE72EE80021752D /* CircuitElectricResistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34821DE72EE80021752D /* CircuitElectricResistance.swift */; };
+		218A34851DE72F0A0021752D /* CircuitElectricCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218A34841DE72F0A0021752D /* CircuitElectricCapacity.swift */; };
+		21DAD3261DEFEAA2006CBD70 /* CircuitRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DAD3251DEFEAA2006CBD70 /* CircuitRunController.swift */; };
+		21FE51B51DEF02E100837406 /* TrashCan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE51B41DEF02E100837406 /* TrashCan.swift */; };
+		21FE51B71DEF03FD00837406 /* TrashCan.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FE51B61DEF03FD00837406 /* TrashCan.xcassets */; };
+		21FE51BA1DEF3AF000837406 /* CircuitInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE51B91DEF3AF000837406 /* CircuitInformationView.swift */; };
+		21FE51BC1DEF3B0000837406 /* CircuitInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FE51BB1DEF3B0000837406 /* CircuitInformationView.xib */; };
+		5AEFD7D9CFE6A9B754EBD200 /* Pods_SimpleCircuitSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA80AED5888552C4CB48FEC /* Pods_SimpleCircuitSimulator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07800090073791A5D84C4F94 /* Pods-SimpleCircuitSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircuitSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCircuitSimulator/Pods-SimpleCircuitSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		2173B33E1DEDF84200B2A7AD /* CircuitFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitFactory.swift; sourceTree = "<group>"; };
+		217A7F621DCF887400F88F7F /* SimpleCircuitSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCircuitSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217A7F651DCF887400F88F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217A7F671DCF887400F88F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		217A7F6A1DCF887400F88F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217A7F6D1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCircuitSimulator.xcdatamodel; sourceTree = "<group>"; };
+		217A7F6F1DCF887400F88F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217A7F721DCF887400F88F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217A7F741DCF887400F88F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218A34171DE6E38A0021752D /* CircuitBackGroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitBackGroundView.swift; sourceTree = "<group>"; };
+		218A34181DE6E38A0021752D /* CircuitBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitBaseView.swift; sourceTree = "<group>"; };
+		218A341A1DE6E38A0021752D /* CircuitConditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitConditionView.swift; sourceTree = "<group>"; };
+		218A341B1DE6E38A0021752D /* CircuitConditionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircuitConditionView.xib; sourceTree = "<group>"; };
+		218A341D1DE6E38A0021752D /* CircuitConfigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitConfigView.swift; sourceTree = "<group>"; };
+		218A341E1DE6E38A0021752D /* CircuitConfigView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircuitConfigView.xib; sourceTree = "<group>"; };
+		218A341F1DE6E38A0021752D /* CircuitControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitControlsView.swift; sourceTree = "<group>"; };
+		218A34211DE6E38A0021752D /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		218A347D1DE721FB0021752D /* CircuitView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CircuitView.xcassets; sourceTree = "<group>"; };
+		218A34801DE72C230021752D /* CircuitElectricSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitElectricSource.swift; sourceTree = "<group>"; };
+		218A34821DE72EE80021752D /* CircuitElectricResistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitElectricResistance.swift; sourceTree = "<group>"; };
+		218A34841DE72F0A0021752D /* CircuitElectricCapacity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitElectricCapacity.swift; sourceTree = "<group>"; };
+		21DAD3251DEFEAA2006CBD70 /* CircuitRunController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircuitRunController.swift; path = ../CircuitRunController.swift; sourceTree = "<group>"; };
+		21FE51B41DEF02E100837406 /* TrashCan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashCan.swift; sourceTree = "<group>"; };
+		21FE51B61DEF03FD00837406 /* TrashCan.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TrashCan.xcassets; sourceTree = "<group>"; };
+		21FE51B91DEF3AF000837406 /* CircuitInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircuitInformationView.swift; sourceTree = "<group>"; };
+		21FE51BB1DEF3B0000837406 /* CircuitInformationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircuitInformationView.xib; sourceTree = "<group>"; };
+		AFA80AED5888552C4CB48FEC /* Pods_SimpleCircuitSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCircuitSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EA3DB25AF96034AE387771 /* Pods-SimpleCircuitSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCircuitSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleCircuitSimulator/Pods-SimpleCircuitSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217A7F5F1DCF887400F88F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEFD7D9CFE6A9B754EBD200 /* Pods_SimpleCircuitSimulator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076CFF897B232F4061262091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4EA3DB25AF96034AE387771 /* Pods-SimpleCircuitSimulator.debug.xcconfig */,
+				07800090073791A5D84C4F94 /* Pods-SimpleCircuitSimulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		217A7F591DCF887400F88F7F = {
+			isa = PBXGroup;
+			children = (
+				217A7F641DCF887400F88F7F /* SimpleCircuitSimulator */,
+				217A7F631DCF887400F88F7F /* Products */,
+				076CFF897B232F4061262091 /* Pods */,
+				76AD718C0BAC894CEB8EB539 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		217A7F631DCF887400F88F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217A7F621DCF887400F88F7F /* SimpleCircuitSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217A7F641DCF887400F88F7F /* SimpleCircuitSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				218A34161DE6E38A0021752D /* CircuitView */,
+				217A7F651DCF887400F88F7F /* AppDelegate.swift */,
+				217A7F671DCF887400F88F7F /* ViewController.swift */,
+				217A7F691DCF887400F88F7F /* Main.storyboard */,
+				217A7F6F1DCF887400F88F7F /* Assets.xcassets */,
+				217A7F711DCF887400F88F7F /* LaunchScreen.storyboard */,
+				217A7F741DCF887400F88F7F /* Info.plist */,
+				217A7F6C1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodeld */,
+			);
+			path = SimpleCircuitSimulator;
+			sourceTree = "<group>";
+		};
+		218A34161DE6E38A0021752D /* CircuitView */ = {
+			isa = PBXGroup;
+			children = (
+				21FE51B31DEF02BE00837406 /* TrashCan */,
+				218A347F1DE72BBE0021752D /* Circuit */,
+				218A341C1DE6E38A0021752D /* CircuitConfigView */,
+				218A34191DE6E38A0021752D /* CircuitConditionView */,
+				21FE51B81DEF3A9600837406 /* CircuitInformationView */,
+				218A341F1DE6E38A0021752D /* CircuitControlsView.swift */,
+				218A34171DE6E38A0021752D /* CircuitBackGroundView.swift */,
+				218A34211DE6E38A0021752D /* LineView.swift */,
+				21DAD3251DEFEAA2006CBD70 /* CircuitRunController.swift */,
+				218A347D1DE721FB0021752D /* CircuitView.xcassets */,
+			);
+			path = CircuitView;
+			sourceTree = "<group>";
+		};
+		218A34191DE6E38A0021752D /* CircuitConditionView */ = {
+			isa = PBXGroup;
+			children = (
+				218A341A1DE6E38A0021752D /* CircuitConditionView.swift */,
+				218A341B1DE6E38A0021752D /* CircuitConditionView.xib */,
+			);
+			path = CircuitConditionView;
+			sourceTree = "<group>";
+		};
+		218A341C1DE6E38A0021752D /* CircuitConfigView */ = {
+			isa = PBXGroup;
+			children = (
+				218A341D1DE6E38A0021752D /* CircuitConfigView.swift */,
+				218A341E1DE6E38A0021752D /* CircuitConfigView.xib */,
+			);
+			path = CircuitConfigView;
+			sourceTree = "<group>";
+		};
+		218A347F1DE72BBE0021752D /* Circuit */ = {
+			isa = PBXGroup;
+			children = (
+				218A34181DE6E38A0021752D /* CircuitBaseView.swift */,
+				218A34801DE72C230021752D /* CircuitElectricSource.swift */,
+				218A34821DE72EE80021752D /* CircuitElectricResistance.swift */,
+				218A34841DE72F0A0021752D /* CircuitElectricCapacity.swift */,
+				2173B33E1DEDF84200B2A7AD /* CircuitFactory.swift */,
+			);
+			name = Circuit;
+			sourceTree = "<group>";
+		};
+		21FE51B31DEF02BE00837406 /* TrashCan */ = {
+			isa = PBXGroup;
+			children = (
+				21FE51B41DEF02E100837406 /* TrashCan.swift */,
+				21FE51B61DEF03FD00837406 /* TrashCan.xcassets */,
+			);
+			name = TrashCan;
+			sourceTree = "<group>";
+		};
+		21FE51B81DEF3A9600837406 /* CircuitInformationView */ = {
+			isa = PBXGroup;
+			children = (
+				21FE51B91DEF3AF000837406 /* CircuitInformationView.swift */,
+				21FE51BB1DEF3B0000837406 /* CircuitInformationView.xib */,
+			);
+			name = CircuitInformationView;
+			sourceTree = "<group>";
+		};
+		76AD718C0BAC894CEB8EB539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA80AED5888552C4CB48FEC /* Pods_SimpleCircuitSimulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217A7F611DCF887400F88F7F /* SimpleCircuitSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217A7F771DCF887400F88F7F /* Build configuration list for PBXNativeTarget "SimpleCircuitSimulator" */;
+			buildPhases = (
+				AE6188B9532E2F558CB0C3D9 /* [CP] Check Pods Manifest.lock */,
+				217A7F5E1DCF887400F88F7F /* Sources */,
+				217A7F5F1DCF887400F88F7F /* Frameworks */,
+				217A7F601DCF887400F88F7F /* Resources */,
+				29D26604CE63245A26A63D34 /* [CP] Embed Pods Frameworks */,
+				76AFCE996B6CD0E67D25A1DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCircuitSimulator;
+			productName = SimpleCircuitSimulator;
+			productReference = 217A7F621DCF887400F88F7F /* SimpleCircuitSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217A7F5A1DCF887400F88F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chenshyiuan;
+				TargetAttributes = {
+					217A7F611DCF887400F88F7F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WWFAK93RQR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 217A7F5D1DCF887400F88F7F /* Build configuration list for PBXProject "SimpleCircuitSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217A7F591DCF887400F88F7F;
+			productRefGroup = 217A7F631DCF887400F88F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217A7F611DCF887400F88F7F /* SimpleCircuitSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217A7F601DCF887400F88F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A34271DE6E38A0021752D /* CircuitConfigView.xib in Resources */,
+				217A7F731DCF887400F88F7F /* LaunchScreen.storyboard in Resources */,
+				21FE51B71DEF03FD00837406 /* TrashCan.xcassets in Resources */,
+				217A7F701DCF887400F88F7F /* Assets.xcassets in Resources */,
+				218A34251DE6E38A0021752D /* CircuitConditionView.xib in Resources */,
+				218A347E1DE721FB0021752D /* CircuitView.xcassets in Resources */,
+				217A7F6B1DCF887400F88F7F /* Main.storyboard in Resources */,
+				21FE51BC1DEF3B0000837406 /* CircuitInformationView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29D26604CE63245A26A63D34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCircuitSimulator/Pods-SimpleCircuitSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76AFCE996B6CD0E67D25A1DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleCircuitSimulator/Pods-SimpleCircuitSimulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6188B9532E2F558CB0C3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217A7F5E1DCF887400F88F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218A34851DE72F0A0021752D /* CircuitElectricCapacity.swift in Sources */,
+				21DAD3261DEFEAA2006CBD70 /* CircuitRunController.swift in Sources */,
+				21FE51B51DEF02E100837406 /* TrashCan.swift in Sources */,
+				218A34221DE6E38A0021752D /* CircuitBackGroundView.swift in Sources */,
+				218A34261DE6E38A0021752D /* CircuitConfigView.swift in Sources */,
+				21FE51BA1DEF3AF000837406 /* CircuitInformationView.swift in Sources */,
+				218A34231DE6E38A0021752D /* CircuitBaseView.swift in Sources */,
+				218A34241DE6E38A0021752D /* CircuitConditionView.swift in Sources */,
+				217A7F681DCF887400F88F7F /* ViewController.swift in Sources */,
+				2173B33F1DEDF84200B2A7AD /* CircuitFactory.swift in Sources */,
+				218A342A1DE6E38A0021752D /* LineView.swift in Sources */,
+				217A7F6E1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodeld in Sources */,
+				218A34811DE72C230021752D /* CircuitElectricSource.swift in Sources */,
+				218A34281DE6E38A0021752D /* CircuitControlsView.swift in Sources */,
+				217A7F661DCF887400F88F7F /* AppDelegate.swift in Sources */,
+				218A34831DE72EE80021752D /* CircuitElectricResistance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		217A7F691DCF887400F88F7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217A7F6A1DCF887400F88F7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217A7F711DCF887400F88F7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217A7F721DCF887400F88F7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217A7F751DCF887400F88F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		217A7F761DCF887400F88F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217A7F781DCF887400F88F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EA3DB25AF96034AE387771 /* Pods-SimpleCircuitSimulator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWFAK93RQR;
+				INFOPLIST_FILE = SimpleCircuitSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cshiyuan.SimpleCircuitSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		217A7F791DCF887400F88F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07800090073791A5D84C4F94 /* Pods-SimpleCircuitSimulator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWFAK93RQR;
+				INFOPLIST_FILE = SimpleCircuitSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cshiyuan.SimpleCircuitSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217A7F5D1DCF887400F88F7F /* Build configuration list for PBXProject "SimpleCircuitSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217A7F751DCF887400F88F7F /* Debug */,
+				217A7F761DCF887400F88F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217A7F771DCF887400F88F7F /* Build configuration list for PBXNativeTarget "SimpleCircuitSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217A7F781DCF887400F88F7F /* Debug */,
+				217A7F791DCF887400F88F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		217A7F6C1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				217A7F6D1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodel */,
+			);
+			currentVersion = 217A7F6D1DCF887400F88F7F /* SimpleCircuitSimulator.xcdatamodel */;
+			path = SimpleCircuitSimulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 217A7F5A1DCF887400F88F7F /* Project object */;
+}

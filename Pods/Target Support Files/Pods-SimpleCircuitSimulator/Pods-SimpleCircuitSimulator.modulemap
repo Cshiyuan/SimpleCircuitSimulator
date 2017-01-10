@@ -1,0 +1,6 @@
+framework module Pods_SimpleCircuitSimulator {
+  umbrella header "Pods-SimpleCircuitSimulator-umbrella.h"
+
+  export *
+  module * { export * }
+}

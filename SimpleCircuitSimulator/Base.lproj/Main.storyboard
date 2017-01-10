@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleCircuitSimulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yY-8N-9pE" userLabel="Circuit Controller View">
+                                <rect key="frame" x="819" y="0.0" width="205" height="384.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpB-rW-jmB">
+                                        <rect key="frame" x="8" y="8" width="189" height="44"/>
+                                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="0ks-D0-eij"/>
+                                        </constraints>
+                                        <state key="normal" title="模拟运行"/>
+                                        <connections>
+                                            <action selector="circuitRunAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="96y-VK-udw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hw9-cF-G45">
+                                        <rect key="frame" x="8" y="60" width="189" height="44"/>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="qqd-72-bOP"/>
+                                        </constraints>
+                                        <state key="normal" title="清空电路">
+                                            <color key="titleShadowColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="clearCircuitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uy9-Vv-HhB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8x-4o-lsN">
+                                        <rect key="frame" x="8" y="112" width="189" height="44"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="2e1-UI-z0G"/>
+                                        </constraints>
+                                        <state key="normal" title="显示器件信息">
+                                            <color key="titleShadowColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showAllCircuitInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mdh-N6-UtA"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请从控件栏中拖动相应的控件，并拖动连线" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0d-T0-eJj">
+                                        <rect key="frame" x="15" y="171" width="175" height="198.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="K0d-T0-eJj" firstAttribute="top" secondItem="u8x-4o-lsN" secondAttribute="bottom" constant="15" id="1Jp-Xz-S63"/>
+                                    <constraint firstAttribute="bottom" secondItem="K0d-T0-eJj" secondAttribute="bottom" constant="15" id="1x0-KZ-zAc"/>
+                                    <constraint firstItem="VpB-rW-jmB" firstAttribute="trailing" secondItem="hw9-cF-G45" secondAttribute="trailing" id="6Lp-i5-34q"/>
+                                    <constraint firstItem="u8x-4o-lsN" firstAttribute="top" secondItem="hw9-cF-G45" secondAttribute="bottom" constant="8" symbolic="YES" id="9PC-w3-5jD"/>
+                                    <constraint firstItem="hw9-cF-G45" firstAttribute="top" secondItem="VpB-rW-jmB" secondAttribute="bottom" constant="8" symbolic="YES" id="BQy-Kq-eOo"/>
+                                    <constraint firstItem="K0d-T0-eJj" firstAttribute="leading" secondItem="1yY-8N-9pE" secondAttribute="leading" constant="15" id="SvU-4K-sta"/>
+                                    <constraint firstItem="u8x-4o-lsN" firstAttribute="trailing" secondItem="hw9-cF-G45" secondAttribute="trailing" id="YBP-Ha-cWT"/>
+                                    <constraint firstItem="u8x-4o-lsN" firstAttribute="leading" secondItem="hw9-cF-G45" secondAttribute="leading" id="d42-gl-TCe"/>
+                                    <constraint firstItem="VpB-rW-jmB" firstAttribute="trailing" secondItem="1yY-8N-9pE" secondAttribute="trailingMargin" id="dGX-7N-dn6"/>
+                                    <constraint firstAttribute="trailing" secondItem="K0d-T0-eJj" secondAttribute="trailing" constant="15" id="jnd-vJ-Bv6"/>
+                                    <constraint firstItem="VpB-rW-jmB" firstAttribute="leading" secondItem="1yY-8N-9pE" secondAttribute="leadingMargin" id="lPC-nd-4Qg"/>
+                                    <constraint firstItem="VpB-rW-jmB" firstAttribute="top" secondItem="1yY-8N-9pE" secondAttribute="topMargin" id="pG7-y4-twD"/>
+                                    <constraint firstItem="VpB-rW-jmB" firstAttribute="leading" secondItem="hw9-cF-G45" secondAttribute="leading" id="tOe-yh-XS7"/>
+                                </constraints>
+                            </view>
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4F-KY-oWI" customClass="CircuitBackGroundView" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="819" height="768"/>
+                                <subviews>
+                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTJ-v1-XQ3" userLabel="Circuit Formula">
+                                        <rect key="frame" x="646" y="8" width="165" height="121"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="FjD-B1-B7U">
+                                                <rect key="frame" x="13" y="34" width="141" height="56"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欧姆标准式：I = U / R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dv-5h-e5P">
+                                                        <rect key="frame" x="0.5" y="0.5" width="110" height="12"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="12" id="F4E-up-XoP"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全电路公式：    I = E / (R+r)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbE-IQ-QwI">
+                                                        <rect key="frame" x="0.5" y="12.5" width="140.5" height="30"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="FCx-9y-ZaS"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电容公式：    C = Q / U" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNa-5W-m2e">
+                                                        <rect key="frame" x="0.5" y="42.5" width="117.5" height="13.5"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="FjD-B1-B7U" firstAttribute="centerY" secondItem="nTJ-v1-XQ3" secondAttribute="centerY" id="0tT-Rv-iwG"/>
+                                            <constraint firstAttribute="width" constant="165" id="Dci-7d-aFQ"/>
+                                            <constraint firstItem="FjD-B1-B7U" firstAttribute="centerX" secondItem="nTJ-v1-XQ3" secondAttribute="centerX" id="IHy-UG-nbb"/>
+                                            <constraint firstAttribute="width" secondItem="nTJ-v1-XQ3" secondAttribute="height" multiplier="15:11" id="gJB-jl-gx6"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="1111" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsF-XP-Miy" customClass="TrashCan" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="732" y="657" width="79" height="103"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="0oJ-ss-6TR"/>
+                                            <constraint firstAttribute="width" secondItem="gsF-XP-Miy" secondAttribute="height" multiplier="79:103" id="bXC-H9-U2K"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gsF-XP-Miy" secondAttribute="trailing" constant="8" id="37z-Hx-cEJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="gsF-XP-Miy" secondAttribute="bottom" constant="8" id="Mbn-C3-G1S"/>
+                                    <constraint firstItem="nTJ-v1-XQ3" firstAttribute="top" secondItem="M4F-KY-oWI" secondAttribute="top" constant="8" id="W2f-L0-eb1"/>
+                                    <constraint firstAttribute="trailing" secondItem="nTJ-v1-XQ3" secondAttribute="trailing" constant="8" id="hAO-5N-nlw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HLQ-83-l4f" customClass="CircuitConfigView" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                <rect key="frame" x="819" y="384.5" width="205" height="153.5"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekS-hu-wJI" userLabel="Circuit View">
+                                <rect key="frame" x="819" y="538" width="205" height="230"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8H5-y8-4IR">
+                                        <rect key="frame" x="8" y="8" width="189" height="214"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUN-hs-IkG">
+                                                <rect key="frame" x="5.5" y="0.0" width="178" height="107"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a14-Db-ARq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="107"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5g9-ai-zvb" customClass="CircuitControlsView" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="5g9-ai-zvb" secondAttribute="height" id="5BF-fZ-801"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电源" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uim-Sl-LLr">
+                                                                <rect key="frame" x="19" y="89" width="51" height="18"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="18" id="GLc-RT-I0V"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="uim-Sl-LLr" firstAttribute="leading" secondItem="a14-Db-ARq" secondAttribute="leading" constant="19" id="gJw-uk-EmJ"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ThR-a8-4th">
+                                                        <rect key="frame" x="89" y="0.0" width="89" height="107"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v54-bc-3j8" customClass="CircuitControlsView" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
+                                                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="v54-bc-3j8" secondAttribute="height" id="JPz-BJ-z0w"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电阻" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWK-sX-pQO">
+                                                                <rect key="frame" x="19" y="89" width="51" height="18"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="18" id="JA2-0f-0QD"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="qWK-sX-pQO" firstAttribute="leading" secondItem="ThR-a8-4th" secondAttribute="leading" constant="19" id="cdw-rc-amO"/>
+                                                            <constraint firstItem="v54-bc-3j8" firstAttribute="leading" secondItem="ThR-a8-4th" secondAttribute="leading" id="hIl-ms-493"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EY2-FV-KJn">
+                                                <rect key="frame" x="59.5" y="107" width="70" height="107"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCN-Bc-OXX" customClass="CircuitControlsView" customModule="SimpleCircuitSimulator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="xCN-Bc-OXX" secondAttribute="height" id="wsn-iN-mhu"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gr2-2x-AZ3">
+                                                        <rect key="frame" x="19" y="89" width="32" height="18"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="18" id="Nx0-WH-Ofg"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="xCN-Bc-OXX" firstAttribute="leading" secondItem="EY2-FV-KJn" secondAttribute="leading" id="a1K-ov-hDF"/>
+                                                    <constraint firstItem="gr2-2x-AZ3" firstAttribute="leading" secondItem="EY2-FV-KJn" secondAttribute="leading" constant="19" id="m2u-7V-Zmc"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8H5-y8-4IR" secondAttribute="trailing" constant="8" id="2sc-N3-p8z"/>
+                                    <constraint firstItem="8H5-y8-4IR" firstAttribute="top" secondItem="ekS-hu-wJI" secondAttribute="top" constant="8" id="I5w-Lu-gB1"/>
+                                    <constraint firstAttribute="bottom" secondItem="8H5-y8-4IR" secondAttribute="bottom" constant="8" id="a8E-rS-y55"/>
+                                    <constraint firstItem="8H5-y8-4IR" firstAttribute="leading" secondItem="ekS-hu-wJI" secondAttribute="leading" constant="8" id="wIx-rt-ixP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="top" secondItem="HLQ-83-l4f" secondAttribute="bottom" id="75P-fb-DNq"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="A5k-cB-XFh"/>
+                            <constraint firstAttribute="trailing" secondItem="1yY-8N-9pE" secondAttribute="trailing" id="GUU-rc-lgU"/>
+                            <constraint firstItem="1yY-8N-9pE" firstAttribute="leading" secondItem="HLQ-83-l4f" secondAttribute="leading" id="V4B-Iz-hBW"/>
+                            <constraint firstItem="1yY-8N-9pE" firstAttribute="trailing" secondItem="HLQ-83-l4f" secondAttribute="trailing" id="YdY-Ro-zWX"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="leading" secondItem="HLQ-83-l4f" secondAttribute="leading" id="cYa-xR-lug"/>
+                            <constraint firstItem="HLQ-83-l4f" firstAttribute="top" secondItem="1yY-8N-9pE" secondAttribute="bottom" id="cwp-Mm-W4G"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M4F-KY-oWI" secondAttribute="bottom" id="d53-VK-GwW"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="leading" secondItem="M4F-KY-oWI" secondAttribute="trailing" id="f0Y-gg-Dbd"/>
+                            <constraint firstItem="M4F-KY-oWI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gt4-YS-wLi"/>
+                            <constraint firstItem="HLQ-83-l4f" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="jFF-ux-vaH"/>
+                            <constraint firstItem="M4F-KY-oWI" firstAttribute="top" secondItem="1yY-8N-9pE" secondAttribute="top" id="lF9-nT-5g6"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="mzb-dZ-v9A"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="trailing" secondItem="HLQ-83-l4f" secondAttribute="trailing" id="p8s-U5-Jdh"/>
+                            <constraint firstItem="ekS-hu-wJI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="q7U-29-wfN"/>
+                            <constraint firstItem="M4F-KY-oWI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wJb-6B-ip0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circuitBackGroundView" destination="M4F-KY-oWI" id="4Bc-CP-2lC"/>
+                        <outlet property="circuitConfigView" destination="HLQ-83-l4f" id="K2W-AO-shw"/>
+                        <outlet property="clearCircuit" destination="hw9-cF-G45" id="p8u-lr-TUd"/>
+                        <outlet property="electricCapacityCircuitView" destination="xCN-Bc-OXX" id="MfG-Au-Crl"/>
+                        <outlet property="electricResistanceCircuitView" destination="v54-bc-3j8" id="elS-8f-gBm"/>
+                        <outlet property="electricSourceCircuitView" destination="5g9-ai-zvb" id="rb4-wJ-sfe"/>
+                        <outlet property="hintLabel" destination="K0d-T0-eJj" id="Fet-1v-xdo"/>
+                        <outlet property="runButton" destination="VpB-rW-jmB" id="ebi-1w-mic"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-290.625" y="-142.96875"/>
+        </scene>
+    </scenes>
+</document>
