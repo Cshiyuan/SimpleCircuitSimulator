@@ -396,20 +396,25 @@ class CircuitRunController : NSObject
             }
             //接下来串联
             if tempCircuitRecord.validOutputCount == 1{
-                let nextCircuit = tempCircuitRecord.circuitBase.asEndPoint.anyObject()
-                if let nextCircuit = nextCircuit as? CircuitBaseView
+                for nextCircuit in tempCircuitRecord.circuitBase.asEndPoint  //遍历接下里的器件
                 {
-                    let i = checkCircuitBaseInCircuitRecordArray(circuitRecordArray: circuitRecordArray, circuitBaseView: nextCircuit) //获得接下来的位置
-                    if var circuitRecord = circuitRecordArray[i] as? RecordCircuit
+                    if let nextCircuit = nextCircuit as? CircuitBaseView
                     {
-                        circuitRecord.calulateCurrentCount = circuitRecord.calulateCurrentCount - 1
-                        circuitRecord.calulateTempCurrent = circuitRecord.calulateTempCurrent + current
-                        circuitRecordArray.replaceObject(at: i, with: circuitRecord)
-                        if circuitRecord.calulateCurrentCount == 0  //可以接着计算下一步
+                        let i = checkCircuitBaseInCircuitRecordArray(circuitRecordArray: circuitRecordArray, circuitBaseView: nextCircuit) //获得接下来的位置
+                        if var circuitRecord = circuitRecordArray[i] as? RecordCircuit
                         {
-                            runCurrentToCircuit(current: circuitRecord.calulateTempCurrent, position: i, circuitRecordArray: circuitRecordArray)  //输入电流
+                            if circuitRecord.validOutputCount > 0    //属于有效电路
+                            {
+                                circuitRecord.calulateCurrentCount = circuitRecord.calulateCurrentCount - 1
+                                circuitRecord.calulateTempCurrent = circuitRecord.calulateTempCurrent + current
+                                circuitRecordArray.replaceObject(at: i, with: circuitRecord)
+                                if circuitRecord.calulateCurrentCount == 0  //可以接着计算下一步
+                                {
+                                    runCurrentToCircuit(current: circuitRecord.calulateTempCurrent, position: i, circuitRecordArray: circuitRecordArray)  //输入电流
+                                }
                         }
                     }
+                }
 
                 }
             }

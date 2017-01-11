@@ -430,86 +430,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "486"
-            endingLineNumber = "486"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "490"
-            endingLineNumber = "490"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "483"
-            endingLineNumber = "483"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "482"
-            endingLineNumber = "482"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -546,71 +466,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "400"
-            endingLineNumber = "400"
-            landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleCircuitSimulator.CircuitRunController.runCurrentToCircuit (current : Swift.Double, position : Swift.Int, circuitRecordArray : __ObjC.NSMutableArray) -&gt; ()"
-                  moduleName = "SimpleCircuitSimulator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.723013"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "400"
-                  endingLineNumber = "400"
-                  offsetFromSymbolStart = "2361">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleCircuitSimulator.CircuitRunController.runCurrentToCircuit (current : Swift.Double, position : Swift.Int, circuitRecordArray : __ObjC.NSMutableArray) -&gt; ()"
-                  moduleName = "SimpleCircuitSimulator"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.724425"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "400"
-                  endingLineNumber = "400"
-                  offsetFromSymbolStart = "2696">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "402"
-            endingLineNumber = "402"
-            landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "403"
@@ -626,11 +482,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "406"
-            endingLineNumber = "406"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -642,23 +498,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "408"
-            endingLineNumber = "408"
-            landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "409"
@@ -674,11 +514,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "413"
-            endingLineNumber = "413"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -690,11 +530,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "419"
-            endingLineNumber = "419"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -706,7 +546,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "418"
+            endingLineNumber = "418"
+            landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "424"
@@ -722,11 +578,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "426"
-            endingLineNumber = "426"
+            startingLineNumber = "429"
+            endingLineNumber = "429"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -738,11 +594,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "435"
-            endingLineNumber = "435"
+            startingLineNumber = "431"
+            endingLineNumber = "431"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -754,11 +610,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "443"
-            endingLineNumber = "443"
+            startingLineNumber = "440"
+            endingLineNumber = "440"
+            landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
+            timestampString = "505817982.923616"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -786,7 +658,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.765787"
+                  timestampString = "505817805.415467"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "376"
@@ -801,7 +673,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.767231"
+                  timestampString = "505817805.417647"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "376"
@@ -850,7 +722,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.773782"
+                  timestampString = "505817805.443231"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "382"
@@ -865,7 +737,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.775162"
+                  timestampString = "505817805.444582"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "382"
@@ -914,7 +786,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.782287"
+                  timestampString = "505817805.451728"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "387"
@@ -929,7 +801,7 @@
                   moduleName = "SimpleCircuitSimulator"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bb/Desktop/xcodeWorkSpace/SimpleCircuitSimulator/SimpleCircuitSimulator/CircuitRunController.swift"
-                  timestampString = "505756560.783797"
+                  timestampString = "505817805.456024"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "387"
@@ -994,11 +866,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "410"
-            endingLineNumber = "410"
+            startingLineNumber = "413"
+            endingLineNumber = "413"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1010,11 +882,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "417"
-            endingLineNumber = "417"
+            startingLineNumber = "422"
+            endingLineNumber = "422"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1026,11 +898,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "441"
-            endingLineNumber = "441"
+            startingLineNumber = "446"
+            endingLineNumber = "446"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1042,11 +914,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "440"
-            endingLineNumber = "440"
+            startingLineNumber = "445"
+            endingLineNumber = "445"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1058,11 +930,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "405"
-            endingLineNumber = "405"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1090,11 +962,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "401"
-            endingLineNumber = "401"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1106,11 +978,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "404"
-            endingLineNumber = "404"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1122,171 +994,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "491"
-            endingLineNumber = "491"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "493"
-            endingLineNumber = "493"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "496"
-            endingLineNumber = "496"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "484"
-            endingLineNumber = "484"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "485"
-            endingLineNumber = "485"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "487"
-            endingLineNumber = "487"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "489"
-            endingLineNumber = "489"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "492"
-            endingLineNumber = "492"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "494"
-            endingLineNumber = "494"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756464.583093"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "495"
-            endingLineNumber = "495"
-            landmarkName = "minusStartCircuit(circuitRecord:circuitRecordArray:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756639.627197"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "429"
-            endingLineNumber = "429"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1298,11 +1010,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleCircuitSimulator/CircuitRunController.swift"
-            timestampString = "505756641.173639"
+            timestampString = "505817982.923616"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "432"
-            endingLineNumber = "432"
+            startingLineNumber = "437"
+            endingLineNumber = "437"
             landmarkName = "runCurrentToCircuit(current:position:circuitRecordArray:)"
             landmarkType = "7">
          </BreakpointContent>
